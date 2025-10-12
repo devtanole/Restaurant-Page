@@ -1,0 +1,78 @@
+header {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#content {
+  border: red solid 1px;
+  background-color: #f8d7da;
+  height: 90vh;
+  padding: 1rem;
+}
+
+#content .home {
+  background-image: url("https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1950&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  height: 90vh;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.picture {
+  display: block;
+  margin: 1rem auto; /* centers image horizontally */
+  width: 200px; /* control the size */
+  height: 200px; /* keep it square */
+  object-fit: cover; /* keeps the image from stretching */
+  border-radius: 50%; /* makes it a circle */
+  border: 3px solid #fff; /* optional: white border */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* optional: subtle shadow */
+}
+
+.chef {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical centering */
+  align-items: center; /* horizontal centering */
+  height: 350px; /* or whatever fits your layout */
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  background-color: #eee;
+  border-bottom: 2px solid #ccc;
+}
+
+.tab {
+  background: none;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s ease;
+  color: #333;
+}
+
+.tab:hover {
+  background-color: #ddd;
+}
+
+.tab.active {
+  border-bottom: 3px solid #e63946; /* highlight active tab */
+  font-weight: bold;
+  color: #e63946;
+}
