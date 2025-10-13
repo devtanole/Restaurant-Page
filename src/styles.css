@@ -9,10 +9,9 @@ body {
   padding: 0;
 }
 
-h1,
-h2,
-h3 {
-  margin-top: 0;
+h1 {
+  margin-top: 0.7rem;
+  font-size: 2.7rem;
 }
 
 header {
@@ -27,7 +26,10 @@ header {
 #content {
   border: red solid 3px;
   /* height: 100vh; */
+  flex: 1;
   width: 100vw;
+  display: flex;
+  flex-direction: column;
 }
 
 #content .home {
@@ -39,7 +41,8 @@ header {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  padding: 4rem 1rem;
+  padding: 6rem 1rem 4rem;
+  min-height: 85vh;
 }
 
 .picture {
@@ -58,15 +61,18 @@ header {
   flex-direction: column;
   justify-content: center; /* vertical centering */
   align-items: center; /* horizontal centering */
-  height: 450px; /* or whatever fits your layout */
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
-  padding: 2rem;
+  padding: 3rem;
   border-radius: 12px;
   max-width: 600px;
-  margin: 1.5rem auto;
+  margin: 6.7rem auto;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  margin-top: 150px;
+}
+
+.chef p {
+  padding-bottom: 1.2rem;
+  padding-top: 0.5rem;
 }
 
 .tabs {
@@ -74,6 +80,8 @@ header {
   justify-content: center;
   background-color: #333;
   border-bottom: 2px solid #ccc;
+  margin-top: 2rem;
+  gap: 1em;
 }
 
 .tab {
@@ -104,12 +112,16 @@ footer {
   align-items: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  padding: 0.75rem;
+  padding: 2rem;
 }
 
 .email {
-  padding: 8.5px 14px;
+  padding: 1rem;
   border-radius: 5px;
+}
+
+.newsletter:hover {
+  background-color: #dbdbdb;
 }
 
 .newsletter {
@@ -134,4 +146,5 @@ footer p {
 
 footer input {
   width: 20rem;
+  height: 3rem;
 }
