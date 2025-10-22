@@ -148,3 +148,61 @@ footer input {
   width: 20rem;
   height: 3rem;
 }
+
+.menu-items {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  display: grid;
+  gap: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.menu-item {
+  aspect-ratio: 4 / 3; /* Width-to-height ratio */
+  width: 100%;
+  max-width: 425px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+  font-size: xx-large;
+  text-decoration: underline #fff;
+}
+
+.menu-item > span {
+  cursor: pointer;
+}
+
+.dinner {
+  background-image: url("../images/dinner.jpg");
+}
+
+.lunch {
+  background-image: url("../images/lunch.jpg");
+}
+
+.breakfast {
+  background-image: url("../images/breakfast.jpg");
+}
+
+.sides {
+  background-image: url("../images/sides.jpg");
+}
+
+.drinks {
+  background-image: url("../images/drink.jpg");
+}
+
+.desserts {
+  background-image: url("../images/dessert.jpg");
+}
