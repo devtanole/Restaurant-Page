@@ -25,7 +25,6 @@ header {
 
 #content {
   border: red solid 3px;
-  /* height: 100vh; */
   flex: 1;
   width: 100vw;
   display: flex;
@@ -33,7 +32,7 @@ header {
 }
 
 #content .home {
-  background-image: url("https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1950&q=80");
+  background-image: url("../images/charles-albert-clarysse--5B_sfWV2TE-unsplash.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
