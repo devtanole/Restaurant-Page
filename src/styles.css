@@ -206,3 +206,36 @@ footer input {
 .desserts {
   background-image: url("../images/dessert.jpg");
 }
+
+.about {
+  background-image: url("../images/contact.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 6rem 1rem 4rem;
+  min-height: 85vh;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical centering */
+  align-items: center; /* horizontal centering */
+  background-color: rgba(82, 82, 82, 0.6);
+  color: white;
+  padding: 3rem;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 6.7rem auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  gap: 1rem;
+}
+
+.map {
+  width: 60vw;
+  height: 40vh;
+}
