@@ -228,13 +228,13 @@ footer input {
   color: white;
   padding: 3rem;
   border-radius: 12px;
-  max-width: 600px;
+  max-width: 1200px;
   margin: 6.7rem auto;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   gap: 1rem;
 }
 
 .map {
-  width: 60vw;
+  width: 50vw;
   height: 40vh;
 }
